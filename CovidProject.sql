@@ -1,3 +1,12 @@
+/*
+
+Covid 19 Data Exploration 
+
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+
+*/
+
+
 
 Select *
 From CovidProject..CovidDeaths
@@ -58,7 +67,7 @@ order by TotalDeathCount desc
 
 
 
---LET'S BREAK THINGS DOWN BY CONTINENT
+--BREAKING THINGS DOWN BY CONTINENT
 
 
 --Showing continents with the highest death count per population
